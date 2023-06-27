@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.stopwatch-card {
+  background: rgb(204, 106, 199);
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 250PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 20px;
+  
+}
+
+.stopwatch-card button {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid rgb(72, 167, 204);
+}
